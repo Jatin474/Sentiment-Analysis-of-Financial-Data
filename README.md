@@ -101,6 +101,32 @@ To run this project, ensure you have the following Python packages installed:
 - `openpyxl` (for Excel file handling)
 - `nltk`
 
+## 10. Output
+
+The analysis results are saved in an Excel file named `Output.xlsx` with the following columns:
+- `URL_ID`
+- `URL`
+- `Title`
+- `Positive Score`
+- `Negative Score`
+- `POLARITY SCORE`
+- `SUBJECTIVITY SCORE`
+- `AVG SENTENCE LENGTH`
+- `PERCENTAGE OF COMPLEX WORDS`
+- `FOG INDEX`
+- `AVG NUMBER OF WORDS PER SENTENCE`
+- `COMPLEX WORD COUNT`
+- `WORD COUNT`
+- `SYLLABLE PER WORD`
+- `PERSONAL PRONOUNS`
+- `AVG WORD LENGTH`
+
+
+## 11. Acknowledgments
+
+ Special thanks to the NLTK library for providing essential text processing functionalities.
+ Acknowledgment to the financial dataset providers for enabling analysis and insights.
+
 You can install these packages using pip:
 
 ```bash
